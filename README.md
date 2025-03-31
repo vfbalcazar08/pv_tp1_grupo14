@@ -4,3 +4,4 @@ Trabajo practico para la materia Programación Visual
     1- Matias Gabriel Ortega - Usuario: MatiasGOrtega
     2- Salim Farid Quintar - Usuario: safaqui00
     2- Lucas Enrique Cari - Usuario: CariLucky
+    4- Rodrigo Alexis Guanactolay - Usuario: GuanactolayRodrigo
