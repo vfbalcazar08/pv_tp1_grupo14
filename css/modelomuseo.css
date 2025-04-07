@@ -32,7 +32,7 @@
 }
 /*Nombre de los museos*/
 [class="museum-card__name"]{
-    margin: 100px 0 0 0;
+    
     font-family: 'Sans-Serif';
     font-size: 3em;
 }
