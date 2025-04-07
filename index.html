@@ -6,9 +6,9 @@
     <title>Cultura Argentina</title>
   </head>
   <body>
-    <header>
-      <h1>Bienvenidos a Argentina</h1>
-      <p>
+    <header class="header">
+      <h1 class="header__title">Bienvenidos a Argentina</h1>
+      <p class="header__description">
         Descubre la belleza y cultura de este maravilloso país, conocido por su
         tango, su gastronomía única como el asado y las empanadas, y sus
         impresionantes paisajes que van desde las Cataratas del Iguazú hasta la
@@ -16,13 +16,20 @@
       </p>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="museos.html">Museos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="museos.html">Museos</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav__item">
           <a
+            class="nav__link"
             href="https://www.youtube.com/watch?v=OqSQo2aifAA"
             target="_blank"
             rel="noopener"
@@ -32,13 +39,13 @@
         </li>
       </ul>
     </nav>
-    <main>
-      <section>
-        <h2>Conoce más sobre Argentina</h2>
+    <main class="main">
+      <section class="culture">
+        <h2 class="culture__title">Conoce más sobre Argentina</h2>
 
-        <article>
-          <h3>Historia de Argentina</h3>
-          <p>
+        <article class="culture__article">
+          <h3 class="culture__article-title">Historia de Argentina</h3>
+          <p class="culture__article-text">
             Argentina tiene una rica historia que incluye la independencia en
             1816, lograda tras años de lucha contra el dominio colonial español.
             Este país ha sido testigo de importantes eventos históricos, como la
@@ -50,9 +57,9 @@
           </p>
         </article>
 
-        <article>
-          <h3>Tradiciones argentinas</h3>
-          <p>
+        <article class="culture__article">
+          <h3 class="culture__article-title">Tradiciones argentinas</h3>
+          <p class="culture__article-text">
             Argentina es un país rico en tradiciones, como el mate, una infusión
             compartida que simboliza amistad y unión. También destacan las
             celebraciones del carnaval en el norte del país, las peñas
@@ -61,9 +68,11 @@
           </p>
         </article>
 
-        <article>
-          <h3>La pasión por el fútbol en Argentina</h3>
-          <p>
+        <article class="culture__article">
+          <h3 class="culture__article-title">
+            La pasión por el fútbol en Argentina
+          </h3>
+          <p class="culture__article-text">
             El fútbol es más que un deporte en Argentina, es una pasión que une
             a millones de personas. Desde los clásicos entre Boca Juniors y
             River Plate hasta los logros de la selección nacional, como la Copa
@@ -73,31 +82,35 @@
         </article>
       </section>
 
-      <section>
-        <h3>Datos curiosos</h3>
-        <ul>
-          <li>Argentina es el octavo país más grande del mundo.</li>
-          <li>
+      <section class="facts">
+        <h3 class="facts__title">Datos curiosos</h3>
+        <ul class="facts__list">
+          <li class="facts__item">
+            Argentina es el octavo país más grande del mundo.
+          </li>
+          <li class="facts__item">
             El tango, un baile y música emblemáticos, nació en Buenos Aires a
             finales del siglo XIX.
           </li>
-          <li>
+          <li class="facts__item">
             La Patagonia argentina alberga glaciares impresionantes y una fauna
             única.
           </li>
-          <li>
+          <li class="facts__item">
             El asado argentino es famoso en todo el mundo por su sabor y
             tradición.
           </li>
-          <li>
+          <li class="facts__item">
             Argentina es el hogar del famoso escritor Jorge Luis Borges y del
             revolucionario Che Guevara.
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <p>&copy; 2025 Argentina. Todos los derechos reservados.</p>
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2025 Argentina. Todos los derechos reservados.
+      </p>
     </footer>
   </body>
 </html>

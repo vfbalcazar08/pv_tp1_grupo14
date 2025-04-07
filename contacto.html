@@ -6,9 +6,9 @@
     <title>Consultas e Información</title>
   </head>
   <body>
-    <header>
-      <h1>Bienvenidos a Argentina</h1>
-      <p>
+    <header class="header">
+      <h1 class="header__title">Bienvenidos a Argentina</h1>
+      <p class="header__description">
         Descubre la belleza y cultura de este maravilloso país, conocido por su
         tango, su gastronomía única como el asado y las empanadas, y sus
         impresionantes paisajes que van desde las Cataratas del Iguazú hasta la
@@ -16,13 +16,20 @@
       </p>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="museos.html">Museos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="museos.html">Museos</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav__item">
           <a
+            class="nav__link"
             href="https://www.youtube.com/watch?v=OqSQo2aifAA"
             target="_blank"
             rel="noopener"
@@ -32,36 +39,61 @@
         </li>
       </ul>
     </nav>
-    <main>
-      <section>
-        <h2>Contáctanos</h2>
-        <p>
+    <main class="main">
+      <section class="contact">
+        <h2 class="contact__title">Contáctanos</h2>
+        <p class="contact__description">
           Si te interesa conocer más acerca de este hermoso país y visitarlo, te
           invitamos a ponerte en contacto con nosotros.
         </p>
 
-        <form action="procesar_formulario.php" method="post">
-          <label for="nombre">Nombre:</label><br />
-          <input type="text" id="nombre" name="nombre" required /><br /><br />
+        <form class="contact__form" action="">
+          <label class="contact__label" for="nombre">Nombre:</label><br />
+          <input
+            class="contact__input"
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+          /><br /><br />
 
-          <label for="email">Correo electrónico:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
+          <label class="contact__label" for="email">Correo electrónico:</label
+          ><br />
+          <input
+            class="contact__input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          /><br /><br />
 
-          <label for="mensaje">Mensaje o consulta:</label><br />
-          <textarea id="mensaje" name="mensaje" rows="5" required></textarea
+          <label class="contact__label" for="mensaje">Mensaje o consulta:</label
+          ><br />
+          <textarea
+            class="contact__textarea"
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            required
+          ></textarea
           ><br /><br />
 
-          <button type="submit">Enviar</button>
+          <button class="contact__button" type="submit">Enviar</button>
         </form>
       </section>
 
-      <section>
-        <h2>Enlaces de interés</h2>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="museos.html">Museos</a></li>
-          <li>
+      <section class="links">
+        <h2 class="links__title">Enlaces de interés</h2>
+        <ul class="links__list">
+          <li class="links__item">
+            <a class="links__link" href="index.html">Inicio</a>
+          </li>
+          <li class="links__item">
+            <a class="links__link" href="museos.html">Museos</a>
+          </li>
+          <li class="links__item">
             <a
+              class="links__link"
               href="https://www.argentina.gob.ar/interior/turismo"
               target="_blank"
               rel="noopener"
@@ -72,5 +104,10 @@
         </ul>
       </section>
     </main>
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2025 Argentina. Todos los derechos reservados.
+      </p>
+    </footer>
   </body>
 </html>

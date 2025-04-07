@@ -6,9 +6,9 @@
     <title>Museos de Argentina - JUJUY</title>
   </head>
   <body>
-    <header>
-      <h1>Bienvenidos a Argentina</h1>
-      <p>
+    <header class="header">
+      <h1 class="header__title">Bienvenidos a Argentina</h1>
+      <p class="header__description">
         Descubre la belleza y cultura de este maravilloso país, conocido por su
         tango, su gastronomía única como el asado y las empanadas, y sus
         impresionantes paisajes que van desde las Cataratas del Iguazú hasta la
@@ -16,13 +16,20 @@
       </p>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="museos.html">Museos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="museos.html">Museos</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav__item">
           <a
+            class="nav__link"
             href="https://www.youtube.com/watch?v=OqSQo2aifAA"
             target="_blank"
             rel="noopener"
@@ -32,64 +39,74 @@
         </li>
       </ul>
     </nav>
-    <main>
-      <section>
-        <h1>Lista de museos de Argentina – Jujuy</h1>
-        <ul>
-          <li>
-            <article>
-              <span>Museo Justiniano Torres</span>
+    <main class="main">
+      <section class="museum-list">
+        <h1 class="museum-list__title">Lista de museos de Argentina – Jujuy</h1>
+        <ul class="museum-list__items">
+          <li class="museum-list__item">
+            <article class="museum-card">
+              <span class="museum-card__name">Museo Justiniano Torres</span>
               <a
+                class="museum-card__link"
                 href="https://www.bing.com/maps?&ty=18&ss=ypid.YN9000x1004507388..."
                 target="_blank"
                 rel="noopener"
               >
                 <img
+                  class="museum-card__image"
                   src="img/th.jpg"
                   alt="Museo en Humahuaca, Jujuy, Argentina"
                 />
               </a>
             </article>
           </li>
-          <li>
-            <article>
-              <span>Museo Arqueológico Eduardo Casanova</span>
+          <li class="museum-list__item">
+            <article class="museum-card">
+              <span class="museum-card__name"
+                >Museo Arqueológico Eduardo Casanova</span
+              >
               <a
+                class="museum-card__link"
                 href="https://www.bing.com/maps?&ty=18&ss=ypid.YN9000x4135238535770892814..."
                 target="_blank"
                 rel="noopener"
               >
                 <img
+                  class="museum-card__image"
                   src="img/ptl.JPG"
                   alt="Museo en Tilcara, Jujuy, Argentina"
                 />
               </a>
             </article>
           </li>
-          <li>
-            <article>
-              <span>Museo Fundación Recrear</span>
+          <li class="museum-list__item">
+            <article class="museum-card">
+              <span class="museum-card__name">Museo Fundación Recrear</span>
               <a
+                class="museum-card__link"
                 href="https://www.bing.com/maps?&ty=18&ss=ypid.YN9000x8475679857747186711..."
                 target="_blank"
                 rel="noopener"
               >
                 <img
+                  class="museum-card__image"
                   src="img/OLC.jpg"
                   alt="Museo en San Salvador de Jujuy, Argentina"
                 />
               </a>
             </article>
           </li>
-          <li>
-            <article>
-              <span>Museo Ledesma</span>
+          <li class="museum-list__item">
+            <article class="museum-card">
+              <span class="museum-card__name">Museo Ledesma</span>
               <a
+                class="museum-card__link"
                 href="https://www.bing.com/maps?&ty=18&ss=ypid.YN9000x18405135811756929887..."
                 target="_blank"
                 rel="noopener"
               >
                 <img
+                  class="museum-card__image"
                   src="img/museo-ledesma.jpg"
                   alt="Museo en Libertador General San Martín, Jujuy, Argentina"
                 />
@@ -99,5 +116,8 @@
         </ul>
       </section>
     </main>
+    <footer class="footer">
+      <p class="footer__text">&copy; 2025 Argentina. Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
