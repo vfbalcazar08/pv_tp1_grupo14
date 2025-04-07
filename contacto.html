@@ -1,20 +1,76 @@
 <!DOCTYPE html>
-<html lang="español">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Consultas e informacion de contacto </title>
-</head>
-<body>
-    <header>CONSULTAS E INFORMACION DE CONTACTO</header>
-    <h1> Si te interesa conocer mas acerca de este hermoso pais y visitarlo, te invitamos a ponerte en contacto con nosotros
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="museos.html">Museos</a></li>
-                <li><a href="https://www.https://www.argentina.gob.ar/interior/turismo">Secretaria de turismo</a></li>      
-            </ul>
-        </nav>
-    </h1>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultas e Información</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a Argentina</h1>
+      <p>
+        Descubre la belleza y cultura de este maravilloso país, conocido por su
+        tango, su gastronomía única como el asado y las empanadas, y sus
+        impresionantes paisajes que van desde las Cataratas del Iguazú hasta la
+        Patagonia.
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="museos.html">Museos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=OqSQo2aifAA"
+            target="_blank"
+            rel="noopener"
+          >
+            Himno Nacional Argentino
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Contáctanos</h2>
+        <p>
+          Si te interesa conocer más acerca de este hermoso país y visitarlo, te
+          invitamos a ponerte en contacto con nosotros.
+        </p>
+
+        <form action="procesar_formulario.php" method="post">
+          <label for="nombre">Nombre:</label><br />
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+          <label for="email">Correo electrónico:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="mensaje">Mensaje o consulta:</label><br />
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea
+          ><br /><br />
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Enlaces de interés</h2>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="museos.html">Museos</a></li>
+          <li>
+            <a
+              href="https://www.argentina.gob.ar/interior/turismo"
+              target="_blank"
+              rel="noopener"
+            >
+              Secretaría de Turismo
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
