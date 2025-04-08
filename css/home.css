@@ -1,0 +1,68 @@
+/* Seccion sobre la cultura argentina*/
+.culture {
+  margin-bottom: 3rem;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.culture__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+  border-left: 5px solid #0077cc;
+  padding-left: 1rem;
+}
+
+.culture__article {
+  margin-bottom: 2rem;
+}
+
+.culture__article-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #0077cc;
+}
+
+.culture__article-text {
+  font-size: 1rem;
+  color: #444;
+  text-align: justify;
+}
+
+/* Seccion de Datos Curiosos */
+.facts {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.facts__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  border-left: 5px solid #ff6600;
+  padding-left: 1rem;
+}
+
+.facts__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.facts__item {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.facts__item:hover {
+  background-color: #e2e2e2;
+}

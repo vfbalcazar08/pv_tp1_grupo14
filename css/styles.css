@@ -31,6 +31,12 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .nav {
   background-color: rgba(0, 162, 255, 0.6);
   padding: 15px;
