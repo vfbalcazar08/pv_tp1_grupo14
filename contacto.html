@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/contacto.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Consultas e Información</title>
   </head>
   <body>
     <header class="header">
       <h1 class="header__title">Bienvenidos a Argentina</h1>
-      <p id="intro">
-        Descubre la belleza y cultura de este maravilloso país,<br>
-        conocido por su tango, su gastronomía única como el asado y las empanadas,<br>
-        y sus impresionantes paisajes que van desde las Cataratas del Iguazú hasta la Patagonia.
+      <p class="header__description">
+        Descubre la belleza y cultura de este maravilloso país, conocido por su
+        tango, su gastronomía única como el asado y las empanadas, y sus
+        impresionantes paisajes que van desde las Cataratas del Iguazú hasta la
+        Patagonia.
       </p>
     </header>
-
     <nav class="nav">
-      <ul>
-        <li>
-          <a href="index.html">Inicio</a>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="index.html">Inicio</a>
         </li>
-        <li>
-          <a href="museos.html">Museos</a>
+        <li class="nav__item">
+          <a class="nav__link" href="museos.html">Museos</a>
         </li>
-        <li>
-          <a  href="contacto.html">Contacto</a>
+        <li class="nav__item">
+          <a class="nav__link" href="contacto.html">Contacto</a>
         </li>
-        <li>
+        <li class="nav__item">
           <a
+            class="nav__link"
             href="https://www.youtube.com/watch?v=OqSQo2aifAA"
             target="_blank"
             rel="noopener"
@@ -38,11 +40,10 @@
         </li>
       </ul>
     </nav>
-    <div class="contenido">
     <main class="main">
       <section class="contact">
-        <h2>Contáctanos</h2>
-        <p>
+        <h2 class="contact__title">Contáctanos</h2>
+        <p class="contact__description">
           Si te interesa conocer más acerca de este hermoso país y visitarlo, te
           invitamos a ponerte en contacto con nosotros.
         </p>
@@ -81,18 +82,44 @@
         </form>
       </section>
 
-      <aside class="redes__sociales">
-        <h2 id="aside_h2">Síguenos</h2>
-        <ul>
-            <li><a href="https://www.facebook.com" target="_blank" class="facebook">Facebook</a></li>
-            <li><a href="https://www.twitter.com" target="_blank" class="twitter">Twitter</a></li>
-            <li><a href="https://www.instagram.com" target="_blank" class="instagram">Instagram</a></li>
-            <li><a href="https://www.linkedin.com" target="_blank" class="linkedin">LinkedIn</a></li>
+      <aside class="social">
+        <h2 class="social__title">Síguenos</h2>
+        <ul class="social__list">
+          <li class="social__item">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="social__link facebook"
+              >Facebook</a
+            >
+          </li>
+          <li class="social__item">
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              class="social__link twitter"
+              >Twitter</a
+            >
+          </li>
+          <li class="social__item">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              class="social__link instagram"
+              >Instagram
+            </a>
+          </li>
+          <li class="social__item">
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              class="social__link linkedin"
+              >LinkedIn</a
+            >
+          </li>
         </ul>
-        </aside>
-
+      </aside>
     </main>
-    </div>
     <footer class="footer">
       <p class="footer__text">
         &copy; 2025 Argentina. Todos los derechos reservados.
