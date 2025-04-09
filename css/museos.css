@@ -15,6 +15,7 @@
   margin-bottom: 20px;
 }
 
+/*tpdos los items de la lista de museos <ul>*/
 .museum-list__items {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -24,15 +25,17 @@
   margin: 0;
 }
 
+/*Estilo de los items de la lista de museos <li>*/
 .museum-list__item {
   display: flex;
   justify-content: center;
 }
 
+/*Tarjetas de los museos <article>*/
 .museum-card {
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
   max-width: 100%;
@@ -50,12 +53,14 @@
   font-weight: 700;
 }
 
+/*Descripcion de los museos*/
 .museum-card__description {
   font-size: 0.95rem;
   color: #555;
   margin-bottom: 1rem;
 }
 
+/*Boton de ver mas*/
 .museum-card__link {
   display: inline-block;
   width: 100%;
@@ -65,7 +70,7 @@
 /*Imagenes de museos*/
 .museum-card__image {
   width: 100%;
-  height: 20em;
+  height: 18em;
   object-fit: cover;
 
   border-radius: 50%;
