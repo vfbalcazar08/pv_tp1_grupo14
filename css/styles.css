@@ -14,9 +14,11 @@ body {
 }
 
 .header {
-  background-image: url("/img/fondoPrincipal.jpg");
+  background-image: url("../img/argentina.jpg");
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
+  filter: brightness(0.8);
   padding: 70px;
 }
 
@@ -24,11 +26,17 @@ body {
   color: white;
   font-size: 80px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .header__description {
   font-size: 30px;
   color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-style: bold;
+  line-height: 1.5;
 }
 
 .main {
